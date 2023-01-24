@@ -22,18 +22,13 @@ function App() {
           onClick={toggleTheme}
           style={{ textAlign: "center" }}
         >
-          <span className="bn54span">CHANGE</span>
+          <span className="bn54span">SWITCH</span>
         </button>
       </div>
 
       <p className="neon">
         <b>
-          Welc<span>om</span>e
-        </b>
-      </p>
-      <p className="neon">
-        <b>
-          Change <span>m</span>e
+          Ch<span>an</span>ge <span>m</span>e
         </b>
       </p>
     </div>
