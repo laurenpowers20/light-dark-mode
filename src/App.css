@@ -1,5 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Exo+2:200i);
-@import url("https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap");
+
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Rubik+Wet+Paint&display=swap");
+
 @font-face {
   font-family: "neon-tubes-2-regular";
   src: url("https://assets.codepen.io/2585/NeonTubes2.otf") format("woff"),
@@ -8,7 +10,7 @@
 }
 
 body {
-  font-family: "neon-tubes-2-regular", sans-serif;
+  font-family: "Cedarville Cursive", cursive;
 }
 
 .greeting {
@@ -96,7 +98,7 @@ body {
 
 .neon {
   user-select: none;
-  font-family: "neon-tubes-2-regular", sans-serif;
+  font-family: "Cedarville Cursive", cursive;
   font-size: 6rem;
 }
 
