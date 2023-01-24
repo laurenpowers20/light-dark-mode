@@ -1,5 +1,6 @@
 # Light/Dark Mode Demo
 
-Just a quick little front-end of dark and light mode theme switcher with some fun CSS.
+A quick little front-end of light and dark mode theme switcher with some fun CSS. Built with React.
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB).
 
-[Try it out](https://light-dark-mode-theme.netlify.app/)
+[Try it here](https://light-dark-mode-theme.netlify.app/)
