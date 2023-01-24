@@ -1,23 +1,41 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import React, { useState, useEffect } from "react";
 
 function App() {
+  const [theme, setTheme] = useState("light");
+  const toggleTheme = () => {
+    if (theme === "light") {
+      setTheme("dark");
+    } else {
+      setTheme("light");
+    }
+  };
+  useEffect(() => {
+    document.body.className = theme;
+  }, [theme]);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
+    <div className={`App ${theme}`} style={{ textAlign: "center" }}>
+      <div className="button-container">
+        <button
+          className="bn54"
+          onClick={toggleTheme}
+          style={{ textAlign: "center" }}
         >
-          Learn React
-        </a>
-      </header>
+          <span className="bn54span">CHANGE</span>
+        </button>
+      </div>
+
+      <p className="neon">
+        <b>
+          Welc<span>om</span>e
+        </b>
+      </p>
+      <p className="neon">
+        <b>
+          Change <span>m</span>e
+        </b>
+      </p>
     </div>
   );
 }
