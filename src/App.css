@@ -26,8 +26,10 @@ body {
   background-color: rgb(25, 24, 24);
   color: #fff;
 }
+
 .button-container {
   padding-top: 100px;
+
 }
 .bn54 {
   text-align: center;
@@ -39,13 +41,20 @@ body {
   height: 45px;
   width: 130px;
   opacity: 1;
-  background-color: #ffffff;
-  border: 1px solid rgba(0, 0, 0, 0.6);
+  background-color: rgba(0, 0, 0, 0.6);
+  border: 1px solid #ffffff;
 }
 
 .bn54 .bn54span {
-  font-family: "Rubik Wet Paint", cursive;
   color: #000000;
+  font-size: 20px;
+  font-weight: 500;
+  letter-spacing: 0.7px;
+}
+
+.bn54 .bn54span,
+.dark {
+  color: #ffffff;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.7px;
