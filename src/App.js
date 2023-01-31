@@ -31,6 +31,11 @@ function App() {
           Ch<span>an</span>ge <span>m</span>e
         </b>
       </p>
+      <div className="center">
+        <a href="https://react-portfolio-lauren-powers.netlify.app/">
+          <button className="button-54">Back to Lil' Portfolio</button>
+        </a>
+      </div>
     </div>
   );
 }
